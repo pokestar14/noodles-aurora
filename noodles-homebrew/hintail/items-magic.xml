@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Magic Items</name>
+		<update version="0.1">
+			<file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew/hintail/items-magic.index" />
+		</update>
+	</info>
+
+  <element name="Quicksilver Thrower" type="Magic Item" source="Hintail" id="ID_NDL_HNTL_MAGIC_ITEM_DWARVEN_THROWER">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <description>
+			<p>You gain a +2 bonus to damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, you can attack a second time with it for free once a short rest, and it can be thrown an extra 10 feet.</p>
+		</description>
+		<setters>
+			<set name="keywords">thrown</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Quicksilver Throwing {{parent}}</set>
+		</setters>
+	</element>
+  <element name="Quicksilver Riposter" type="Magic Item" source="Hintail" id="ID_NDL_HNTL_MAGIC_ITEM_DWARVEN_RIPOSTER">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+    <description>
+			<p>You gain a +2 bonus to damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, once a short rest, you can attack a second time with it for free, or use a reaction to perform an attack on disadvantage against an enemy attack, negating damage if you succeed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+			<set name="name-format">Quicksilver Riposting {{parent}}</set>
+		</setters>
+	</element>
+
+</elements>

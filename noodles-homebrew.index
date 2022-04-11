@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="0.1">
+      <file name="noodles-homebrew.index" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew.index" />
+    </update>
+  </info>
+  <files>
+    <file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew/hintail/items-magic.xml" />
+  </files>
+</index>
