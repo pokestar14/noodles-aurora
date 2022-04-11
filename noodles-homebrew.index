@@ -2,10 +2,10 @@
 <index>
   <info>
     <update version="0.1">
-      <file name="noodles-homebrew.index" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew.index" />
+      <file name="noodles-homebrew.index" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/main/noodles-homebrew.index" />
     </update>
   </info>
   <files>
-    <file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew/hintail/items-magic.xml" />
+    <file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/main/noodles-homebrew/hintail/items-magic.xml" />
   </files>
 </index>
