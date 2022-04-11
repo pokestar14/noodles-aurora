@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items</name>
 		<update version="0.1">
-			<file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/noodles-homebrew/hintail/items-magic.index" />
+			<file name="items-magic.xml" url="https://raw.githubusercontent.com/pokestar14/noodles-aurora/main/noodles-homebrew/hintail/items-magic.index" />
 		</update>
 	</info>
 
